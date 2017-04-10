@@ -17,6 +17,7 @@ namespace FYP_Management_System
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("hello");
         }
     }
 }

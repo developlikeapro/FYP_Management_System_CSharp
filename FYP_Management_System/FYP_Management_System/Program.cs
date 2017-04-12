@@ -12,12 +12,11 @@ namespace FYP_Management_System
         static Ccontroler Ocontroler = null;
         public Program()
         {
-            Ocontroler = Oserialization.Mdeserialize();
-            Console.WriteLine();
+            
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            
         }
     }
 }

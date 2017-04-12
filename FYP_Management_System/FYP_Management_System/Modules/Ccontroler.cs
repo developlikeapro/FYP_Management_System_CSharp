@@ -9,16 +9,17 @@ namespace FYP_Management_System
     [Serializable]
     class Ccontroler
     {
-        public Cstudent Ostudent;
-        public Cadvisor Oadvisor;
-        public Cexternal Oexternal;
-        public Cinternal Ointernal;
+        List<Cstudent> Lststud;
+        List<Cadvisor> Lstadvisor;
+        List<Cinternal> Lstinternal;
+        List<Cexternal> Lstexternal;
+
         public Ccontroler()
         {
-            Oadvisor = new Cadvisor();
-            Ostudent = new Cstudent();
-            Oexternal = new Cexternal();
-            Ointernal = new Cinternal();
+            Lststud = new List<Cstudent>();
+            Lstadvisor = new List<Cadvisor>();
+            Lstinternal = new List<Cinternal>();
+            Lstexternal = new List<Cexternal>();
         }
     }
 }

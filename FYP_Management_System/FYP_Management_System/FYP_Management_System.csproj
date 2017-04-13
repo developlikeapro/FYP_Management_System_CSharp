@@ -45,12 +45,12 @@
   <ItemGroup>
     <Compile Include="Cperson.cs" />
     <Compile Include="Modules\Cadvisor.cs" />
-    <Compile Include="Modules\Ccontroler.cs" />
+    <Compile Include="Main\Ccontroler.cs" />
     <Compile Include="Modules\Cexternal.cs" />
     <Compile Include="Modules\Cinternal.cs" />
     <Compile Include="Modules\Clogin.cs" />
     <Compile Include="Main\Cserialize.cs" />
-    <Compile Include="Main\Cstudent.cs" />
+    <Compile Include="Modules\Cstudent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

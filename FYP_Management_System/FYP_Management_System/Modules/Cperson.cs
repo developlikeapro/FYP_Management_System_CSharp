@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FYP_Management_System.Folder2
 {
-    class Cperson
+  public class Cperson
     {
         public string name { get;protected set; }
         public string address { get; protected set; }

@@ -9,21 +9,25 @@ namespace OOAD01
     class Clogin
     {
 
-        public Clogin(Role obj)
+        public Clogin(Role role,loginsub user)
         {
-            if (obj==Role.Student)
+            if (role==Role.Student)
             {
 
             }
-            else if(obj == Role.Advisor)
+            else if(role == Role.Advisor)
             {
 
             }
-            else if (obj == Role.Internal)
+            else if (role == Role.Internal)
             {
 
             }
-            else  if(obj == Role.External)
+            else  if(role == Role.External)
+            {
+
+            }
+            else
             {
 
             }

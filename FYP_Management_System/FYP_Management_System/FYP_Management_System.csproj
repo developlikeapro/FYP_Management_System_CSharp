@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cperson.cs" />
     <Compile Include="Folder2\Cadvisor.cs" />
-    <Compile Include="Folder2\Person.cs" />
+    <Compile Include="Folder2\Cperson.cs" />
     <Compile Include="Main\Ccontroler.cs" />
     <Compile Include="Folder2\Cexternal.cs" />
     <Compile Include="Folder2\Cinternal.cs" />

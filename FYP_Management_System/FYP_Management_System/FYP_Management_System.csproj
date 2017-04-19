@@ -44,13 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cperson.cs" />
-    <Compile Include="Modules\Cadvisor.cs" />
+    <Compile Include="Folder2\Cadvisor.cs" />
+    <Compile Include="Folder2\Person.cs" />
     <Compile Include="Main\Ccontroler.cs" />
-    <Compile Include="Modules\Cexternal.cs" />
-    <Compile Include="Modules\Cinternal.cs" />
-    <Compile Include="Modules\Clogin.cs" />
+    <Compile Include="Folder2\Cexternal.cs" />
+    <Compile Include="Folder2\Cinternal.cs" />
+    <Compile Include="Folder2\Clogin.cs" />
     <Compile Include="Main\Cserialize.cs" />
-    <Compile Include="Modules\Cstudent.cs" />
+    <Compile Include="Folder2\Cstudent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,34 +8,35 @@ namespace OOAD01
 {
     class Clogin
     {
-        public Clogin(loginsub obj)
+
+        public Clogin(Role obj)
         {
-            if (obj.role==0)
+            if (obj==Role.Student)
             {
 
             }
-            else if(obj.role==1)
+            else if(obj == Role.Advisor)
             {
 
             }
-            else if (obj.role==2)
+            else if (obj == Role.Internal)
             {
 
             }
-            else  
+            else  if(obj == Role.External)
             {
 
             }
         }
     }
+   public enum Role { Student, Advisor, Internal, External };
+
     class loginsub
     {
         public string username { get; set; }
-        public int role { get; set; }
         public string pass { get; set; }
-        public loginsub(string username,string pass,int role)
+        public loginsub(string username,string pass)
         {
-            this.role = role;
             this.username = username;
             this.pass = pass;
         }

@@ -1,6 +1,6 @@
 ﻿namespace FYP_Management_System
 {
-    public class Cstudent
+    public class Cstudent:Cperson,Istudent
     {
     }
 }

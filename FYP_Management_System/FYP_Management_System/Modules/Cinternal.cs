@@ -1,6 +1,6 @@
 ﻿namespace FYP_Management_System
 {
-    public class Cinternal
+    public class Cinternal:Cperson,Iinternal
     {
     }
 }

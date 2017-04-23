@@ -9,21 +9,21 @@ namespace OOAD01
     class Clogin
     {
 
-        public Clogin(Role role,loginsub user)
+        public Clogin(Erole role,loginsub user)
         {
-            if (role==Role.Student)
+            if (role==Erole.Student)
             {
 
             }
-            else if(role == Role.Advisor)
+            else if(role == Erole.Advisor)
             {
 
             }
-            else if (role == Role.Internal)
+            else if (role == Erole.Internal)
             {
 
             }
-            else  if(role == Role.External)
+            else  if(role == Erole.External)
             {
 
             }
@@ -33,7 +33,7 @@ namespace OOAD01
             }
         }
     }
-   public enum Role { Student, Advisor, Internal, External };
+   public enum Erole { Student, Advisor, Internal, External };
 
     class loginsub
     {

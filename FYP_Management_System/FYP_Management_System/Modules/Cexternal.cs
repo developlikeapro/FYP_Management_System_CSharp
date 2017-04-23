@@ -1,6 +1,10 @@
-﻿namespace FYP_Management_System
+﻿using System;
+
+namespace FYP_Management_System
 {
-    public class Cexternal:Cperson,Iexternal
+    [Serializable]
+    public class Cexternal : Cperson, Iexternal
     {
+      
     }
 }

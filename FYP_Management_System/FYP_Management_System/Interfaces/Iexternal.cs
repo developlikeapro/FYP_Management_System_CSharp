@@ -7,5 +7,6 @@ namespace FYP_Management_System
 {
     public interface Iexternal
     {
+        
     }
 }

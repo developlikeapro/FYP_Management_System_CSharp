@@ -9,10 +9,10 @@ namespace FYP_Management_System
     [Serializable]
     class Ccontroler
     {
-        List<Cstudent> Lststud;
-        List<Cadvisor> Lstadvisor;
-        List<Cinternal> Lstinternal;
-        List<Cexternal> Lstexternal;
+        public List<Cstudent> Lststud;
+        public List<Cadvisor> Lstadvisor;
+        public List<Cinternal> Lstinternal;
+        public List<Cexternal> Lstexternal;
 
         public Ccontroler()
         {

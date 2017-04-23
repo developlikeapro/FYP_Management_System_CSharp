@@ -11,15 +11,19 @@ namespace FYP_Management_System
 {
     class Cserialization
     {
-        public Cserialization()
+        public Cserialization(ref Ccontroler obj)
         {
-            Mserialize(new Ccontroler());
+            obj =Mdeserialize();
+            if (obj==null)
+            {
+                obj = Mdeserialize();
+            }
         }
 
         public Ccontroler Mdeserialize()
         {
             Ccontroler newobj=null;
-            FileStream fs = new FileStream("db.bat", FileMode.Open);
+            FileStream fs = new FileStream("db.bat", FileMode.OpenOrCreate);
             try
             {
                 BinaryFormatter formatter = new BinaryFormatter();
@@ -27,7 +31,14 @@ namespace FYP_Management_System
             }
             catch (Exception)
             {
+                fs.Close();
+                Mserialize(new Ccontroler());
                 return null;
+
+            }
+            finally
+            {
+                fs.Close();
             }
            
             return newobj;
@@ -43,7 +54,7 @@ namespace FYP_Management_System
             }
             catch (SerializationException ex)
             {
-                Console.WriteLine("Faile    d to serialize . Reason: "+ex.ToString());
+                Console.WriteLine("Failed to serialize . Reason: "+ex.ToString());
             }
             finally
             {

@@ -7,5 +7,7 @@ namespace FYP_Management_System
 {
     public interface Istudent
     {
+       void proposeidea(Cidea idea);
+         
     }
 }

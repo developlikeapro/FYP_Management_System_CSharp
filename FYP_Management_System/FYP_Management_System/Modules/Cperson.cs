@@ -13,9 +13,8 @@ namespace FYP_Management_System
         public string Email { get; set; }
         public Egender gemder { get; set; }
         public int cnic { get; set; }
-
-
-
+        public string username { get; internal set; }
+        public string password { get; internal set; }
     }
     [Serializable]
     public enum Egender

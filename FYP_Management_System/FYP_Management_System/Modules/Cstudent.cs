@@ -9,6 +9,7 @@ namespace FYP_Management_System
         public int studentid { get; set; }
         public double cgpa { get; set; }
         public List<Cidea> lstofideas { get; set; }
+        public Cproject selectedproject { get; set; }
         public List<string> notifications { get; set; }
 
         public Cstudent()
@@ -45,7 +46,10 @@ namespace FYP_Management_System
             //added to the list of selected advisor 
         }
 
-       
+        public void submitproject(Cproject myproject)
+        {
+           //
+        }
     }
     public class Cidea
     {

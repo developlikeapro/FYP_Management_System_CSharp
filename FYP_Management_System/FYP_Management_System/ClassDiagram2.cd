@@ -46,7 +46,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="FYP_Management_System.loginsub" Collapsed="true">
-    <Position X="11.5" Y="1.5" Width="1.5" />
+    <Position X="13.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Modules\Clogin.cs</FileName>
@@ -62,7 +62,7 @@
   <Class Name="FYP_Management_System.Cstudent">
     <Position X="7.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAGAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAIAAE=</HashCode>
       <FileName>Modules\Cstudent.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -70,15 +70,22 @@
   <Class Name="FYP_Management_System.Cidea" Collapsed="true">
     <Position X="11.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAQAAQACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Modules\Cstudent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FYP_Management_System.Program" Collapsed="true">
-    <Position X="13.25" Y="1.5" Width="1.5" />
+    <Position X="11.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FYP_Management_System.Cproject" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Cproject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="FYP_Management_System.Iadvisor" Collapsed="true">
@@ -105,7 +112,7 @@
   <Interface Name="FYP_Management_System.Istudent" Collapsed="true">
     <Position X="9.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>Interfaces\Istudent.cs</FileName>
     </TypeIdentifier>
   </Interface>

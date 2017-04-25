@@ -55,6 +55,7 @@
     <Compile Include="Main\Cserialize.cs" />
     <Compile Include="Modules\Cperson.cs" />
     <Compile Include="Modules\Cstudent.cs" />
+    <Compile Include="Modules\Cproject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
